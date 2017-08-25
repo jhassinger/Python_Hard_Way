@@ -33,7 +33,7 @@ output = raw_input("Write something to add to the file: ")
 txt_again.write(output)
 
 # Rewind to beginning of file
-txt_again.seek(1)
+txt_again.seek(0)
 
 # Print contents again
 print txt_again.read()
